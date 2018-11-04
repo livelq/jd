@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>4张</title>
+	<style type="text/css">
+	body{
+		background-color: #f00000;
+	}
+	.wai4{
+		padding: 0;
+		margin: 0;
+		position: relative;
+		width: 850px;
+		height: 304px;
+		overflow: hidden;
+	}
+	.picture4{
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		left: 0;
+		width: 4250px;
+		animation-name:lunbotu4;
+		animation-duration: 20s;
+		animation-iteration-count: infinite;
+	}
+	@keyframes lunbotu4{
+		0%,20%{
+			left: 0;
+		}
+		25%,45%{
+			left: -850px;
+		}
+		50%,70%{
+			left: -1700px;
+		}
+		75%,99%{
+			left: -2550px;
+		}
+		100%{
+			left: -3400px;
+		}
+	}
+	.picture4 li{
+		margin: 0;
+		padding: 0;
+		float: left;
+		list-style: none;
+	}
+	.picture4 li img{
+		margin: 0;
+		padding: 0;
+		width: 850px;
+		height:304px;
+	}
+	</style>
+</head>
+<body>
+<div class="wai4">
+<ul class="picture4">
+<li><img src="./图片/l1111.jpg"></li>
+<li><img src="./图片/l2222.jpg"></li>
+<li><img src="./图片/l3333.jpg"></li>
+<li><img src="./图片/l4444.jpg"></li>
+<li><img src="./图片/l1111.jpg"></li>
+</ul>
+</div>
+</body>
+</html>

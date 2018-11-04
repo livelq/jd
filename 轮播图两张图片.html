@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>2张</title>
+	<style type="text/css">
+	.wai2{
+		position: relative;
+		width: 240px;
+		height: 304px;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+	}
+	.picture2{
+		width: 720px;
+		list-style: none;
+		position: absolute;
+		left: 0;
+		animation-name: lunbotu2;
+		animation-duration: 10s;
+		animation-iteration-count: infinite;
+		margin: 0;
+		padding: 0;
+	}
+	@keyframes lunbotu2{
+		0%,45%{
+			left: 0;
+		}
+		50%,95%{
+			left: -240px;
+		}
+		100%{
+			left: -480px;
+		}
+	}
+	.picture2 li{
+		float: left;
+		margin: 0;
+		padding: 0;
+	}
+	.picture2 li img{
+		width: 240px;
+		height: 304px;
+		margin: 0;
+		padding: 0;
+	}
+	</style>
+</head>
+<body>
+<div class="wai2">
+<ul class="picture2">
+<li><img src="./图片/l22.jpg"></li>
+<li><img src="./图片/l11.jpg"></li>
+<li><img src="./图片/l22.jpg"></li>
+</ul>
+</div>
+</body>
+</html>

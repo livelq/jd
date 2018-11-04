@@ -1,0 +1,420 @@
+body{
+	margin-top: 0;
+	padding-top:0;
+	background-color: #f0f0f0;
+	padding-left: 15px;
+	padding-right: 15px;
+	height: 2400px;
+}
+.head1{
+	background-color:#e8e8e8;
+	color: #e0e0e0;
+	font-family: Arial,Verdana,Sans-serif;
+	padding-top: 2px;
+}
+.ul{
+	list-style: none;
+	margin-top: 0;
+	padding-top: 0;
+	margin-left: 170px;
+	padding-bottom: 3px;
+}
+.select{
+	background-color: #e8e8e8;
+	border: none;
+	color: #909090;
+}
+span:hover{
+	color: #f00000;
+}
+.logo{
+	/*position:relative;   用这个定位会影响下面被覆盖的元素的样式
+	top: -55px;*/
+	position: absolute;
+	top: 0px;	
+}
+.logoo{
+	height: 180px;
+}
+.sousuo{
+	position: absolute;
+	left: 350px;
+	width: 570px;
+	height: 40px;
+	border:none;
+	font-size: 15px;
+	/*color: #909090;*/
+	z-index: -1;
+}
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{
+color: #a0a0a0;
+}/*调搜索框里面的字体颜色*/
+.xiaotubiao{
+	position: absolute;
+	top: 60px;
+	padding-left: 790px;
+	color: #a0a0a0;
+}
+.redsousuo{
+	margin-left: 840px; 
+}
+.gouwuche{
+	position: absolute;
+	top: 60px;
+	margin-left: 950px;
+}
+.erweima{
+	position: absolute;
+	left: 1240px;
+	top: 35px;
+}
+.nei_zhong{
+	margin-top: 5px;
+	font-size: 13px;
+	color:#a0a0a0;
+	position: absolute;
+	left: 350px;
+	top: 110px;
+	cursor: pointer;
+}
+.nei_xia{
+	position: absolute;
+	left: 260px;
+	top: 140px;
+	color: #505050;
+	cursor: pointer;
+}
+.text_zuo{
+	position: absolute;
+	top: 180px;
+	height: 560px;
+	width:200px;
+	background-color: white;
+	color:#707070;
+	font-size: 15px;
+}
+.text_zuo_nei{
+	padding-left: 20px;
+	cursor: pointer;
+}
+.text_zuo_nei div{
+	margin-top: 12px;
+}
+.text_zhong{
+	background-color: #f0f0f0;
+	position: absolute;
+	left: 240px;
+	top: 200px;
+	height: 535px;
+	width:840px; 
+}
+.zhong_zuo{
+	/*background-color: green;*/
+	height: 535px;
+	width: 610px;
+}
+
+		.picture8 li img{
+			margin: 0;
+			padding: 0;
+			width: 610px;
+			height: 535px;
+		}
+		.picture8 li{
+			margin: 0;
+			padding:0;
+			float: left;
+			list-style: none;
+		}
+		.wai8{
+			padding: 0;
+			margin:0;
+			width: 610px;
+			height: 535px;
+			position: relative;
+			overflow: hidden;
+		}
+		.picture8{
+			padding: 0;
+			margin: 0;
+			position: absolute;
+			left: 0;
+			width: 5490px;
+			animation-name: lunbotu8;
+			animation-duration: 40s;
+			animation-iteration-count: infinite;
+		}
+		@keyframes lunbotu8{
+			0%,7.5%{
+				left: 0;
+			}
+			12.5%,20%{
+				left:-610px;
+			}
+			25%,32.5%{
+				left: -1220px;
+			}
+			37.5%,45%{
+				left:-1830px;
+			}
+			50%,57.5%{
+				left: -2440px;
+			}
+			62.5%,70%{
+				left: -3050px;
+			}
+			75%，82.5%{
+				left:-3660px;
+			}
+			87.5%,99%{
+				left:-4270px;
+			}
+			100%{
+				left: -4880px;
+			}
+		}
+
+
+.zhong_you_tu{
+	position: absolute;
+	left: 585px;
+	top: -23px;
+}
+.tu_nei li{
+	list-style: none;
+	margin-top: 10px;
+}
+.text_you{
+	position: absolute;
+	left: 1090px;
+	top: 200px;	
+	width: 230px;
+	height: 535px;
+	background-color: white;
+	color: #a0a0a0;
+}
+.you_shang{
+	
+}
+.p1{
+	margin-left: 50px;
+	font-size: 14px;
+	color: #a0a0a0;
+	margin-top: 0;
+	padding-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.p2{
+	margin-left: 70px;
+	font-size: 15px;
+	margin-top:0;
+	padding-top: 0;
+	margin-bottom:0;
+	padding-bottom: 0;
+	cursor: pointer;
+}
+.anniu1{
+	margin-left: 20px;
+	margin-top:0;
+	padding-top: 0;
+}
+.yuanjiao1{
+	width: 80px;
+	height: 25px;
+	border-radius: 30px;
+	background-color: white;
+	cursor: pointer;
+}
+.anniu1 input::-webkit-input-placeholder{
+color: #f00000;
+}
+.anniu2{
+	position: absolute;
+	left: 120px;
+	top: 115px;
+}
+.yuanjiao2{
+	width: 80px;
+	height: 25px;
+	border-radius: 30px;
+	background-color: #181818;
+	cursor: pointer;
+}
+.anniu2 input::-webkit-input-placeholder{
+	color: #996600;
+}
+.cuxiao{
+	font-size: 15px;
+	margin-top: 15px;
+	margin-left: 15px;
+	cursor: pointer;
+}
+.juzi p{
+	cursor: pointer;
+	font-size: 13px;
+	margin-left:15px;
+	cursor: pointer;
+}
+.juzi p:hover{
+		color: #f00000 ;
+}
+.you_xia{
+	color: #deb887;	
+	cursor: pointer;
+}
+.you_xia i{
+	margin-left: 20px;
+}
+.you_xia i:hover{
+	color: #f00000; 
+}
+.jieshi span{
+	font-size: 13px;
+	margin-left: 20px;
+}
+.jieshi{
+	margin-top:0;
+	padding-top: 0;
+
+}
+.footer1_zuo{
+	position: absolute;
+	top: 750px;
+	height: 300px;
+	width: 200px;
+	/*background-color: #a0a0a0;*/
+}
+.footer1_zhong{
+	position: absolute;
+	top: 750px;
+	left: 232px;
+	height: 304px;
+	width: 850px;
+	background-color: #b0b0b0;
+}
+
+	.wai4{
+		padding: 0;
+		margin: 0;
+		position: relative;
+		width: 850px;
+		height: 304px;
+		overflow: hidden;
+	}
+	.picture4{
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		left: 0;
+		width: 4250px;
+		animation-name:lunbotu4;
+		animation-duration: 30s;
+		animation-iteration-count: infinite;
+	}
+	@keyframes lunbotu4{
+		0%,20%{
+			left: 0;
+		}
+		25%,45%{
+			left: -850px;
+		}
+		50%,70%{
+			left: -1700px;
+		}
+		75%,99%{
+			left: -2550px;
+		}
+		100%{
+			left: -3400px;
+		}
+	}
+	.picture4 li{
+		margin: 0;
+		padding: 0;
+		float: left;
+		list-style: none;
+	}
+	.picture4 li img{
+		margin: 0;
+		padding: 0;
+		width: 850px;
+		height:304px;
+	}
+
+.footer1_you{
+	position: absolute;
+	top: 750px;
+	left: 1082px;
+	width: 240px;
+	height: 304px;
+	background-color: #a0a0a0;
+}
+
+	.wai2{
+		position: relative;
+		width: 240px;
+		height: 304px;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+	}
+	.picture2{
+		width: 720px;
+		list-style: none;
+		position: absolute;
+		left: 0;
+		animation-name: lunbotu2;
+		animation-duration: 10s;
+		animation-iteration-count: infinite;
+		margin: 0;
+		padding: 0;
+	}
+	@keyframes lunbotu2{
+		0%,45%{
+			left: 0;
+		}
+		50%,95%{
+			left: -240px;
+		}
+		100%{
+			left: -480px;
+		}
+	}
+	.picture2 li{
+		float: left;
+		margin: 0;
+		padding: 0;
+	}
+	.picture2 li img{
+		width: 240px;
+		height: 304px;
+		margin: 0;
+		padding: 0;
+	}
+
+.biaoqian_1{
+	position: absolute;
+	top: 1050px;
+	left: 500px;
+	font-size: 30px;	
+}
+.footer2{
+	position: absolute;
+	top: 1150px;
+	height: 300px;
+	width: 1300px;	
+	/*background-color: red;*/
+}
+.biaoqian_2{
+	position: absolute;
+	top: 1650px;
+	left:500px;
+	font-size: 30px;
+}
+.footer3{
+	position: absolute;
+	top: 1750px;
+	height: 300px;
+	/*width: 1300px;*/
+}
